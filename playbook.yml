@@ -13,7 +13,7 @@
       when:
       - ansible_distribution == "ubuntu"
     - name: pull image
-     docker_image:
+      docker_image:
        name: mulyonoaja/apache-ubuntu:latest
        source: pull
     - name: create container
